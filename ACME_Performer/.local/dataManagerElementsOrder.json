@@ -1,0 +1,256 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUserName&Sequence_9",
+        "sstrPassword&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Init/ACME_OpenDownloadReportPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolMonthlyPageExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_NumOfRetries",
+        "in_RetryInterval",
+        "in_TimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Init/ACME_OpenUpdateReportPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolMonthlyPageExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_NumOfRetries",
+        "in_RetryInterval",
+        "in_TimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strAllProcesses"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUploadID&Sequence_2",
+        "strVendorInfo&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Process/2_GetVendorInformation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolVendorInfo&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strVendorInfo",
+        "in_NumOfRetries",
+        "in_RetryInterval",
+        "in_TimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Process/3_DownloadMonthlyReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strVendorTaxID&Sequence_9",
+        "boolNoReportPane&Sequence_16",
+        "boolMonthlyPageExist&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Year",
+        "in_TimeOutM",
+        "in_strMonthMenu",
+        "in_strVendorInfo",
+        "in_Config",
+        "in_TimeOutS",
+        "in_RetryInterval",
+        "in_NumOfRetries"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Template.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_NumOfRetries",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Process/5_UploadYearlyReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strVendorTaxID&Sequence_9",
+        "boolUploadPane&Sequence_15",
+        "boolUploadID&Sequence_9",
+        "boolMonthlyPageExist&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Year",
+        "out_strUploadID",
+        "in_Path",
+        "in_strVendorInfo",
+        "in_TimeOutS",
+        "in_RetryInterval",
+        "in_NumOfRetries"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Process/1_NavigateToItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolVendorInfo&Sequence_8",
+        "boolACMESite&Sequence_4",
+        "strWIIDValue&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_NumOfRetries",
+        "in_RetryInterval",
+        "in_ItemWIID",
+        "in_TimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Process/4_MergeReports.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strVendorTaxID&Sequence_9",
+        "boolVendorFinalReport&Sequence_8",
+        "boolVendorFolder&Sequence_4",
+        "dtMonthReport&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strVendorInfo",
+        "in_ReportYear",
+        "in_UploadPath",
+        "in_DownloadPath",
+        "in_RetryInterval",
+        "in_NumOfRetries"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Process/6_UpdateWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolUpdateBtn&Sequence_4",
+        "boolUpdateWindow&Sequence_13",
+        "strWorkDetails&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strUploadID",
+        "in_NumOfRetries",
+        "in_RetryInterval",
+        "in_TimeOutM",
+        "in_TimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

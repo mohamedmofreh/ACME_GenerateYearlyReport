@@ -1,0 +1,3 @@
+InvoiceNumber,Item,Amount,Tax,Total,Currency,Date
+910468,"IT Support",145562,29112.4,174674,EUR,2017-10-16
+909932,"Beverages and Catering",67810,13562,81372,RON,2017-10-09
